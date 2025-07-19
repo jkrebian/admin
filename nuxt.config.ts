@@ -10,6 +10,9 @@ export default defineNuxtConfig({
   },
 
   css: ['~/assets/css/main.css'],
+  uiPro: {
+    license: process.env.MY_ENVIRONMENT_VARIABLE
+  },
 
   routeRules: {
     '/': { prerender: true }
