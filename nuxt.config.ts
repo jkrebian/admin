@@ -4,11 +4,6 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/ui-pro'
   ],
-
-  devtools: {
-    enabled: true
-  },
-
   css: ['~/assets/css/main.css'],
   uiPro: {
     license: process.env.MY_ENVIRONMENT_VARIABLE
@@ -22,7 +17,9 @@ export default defineNuxtConfig({
       transitions: true
      },
   },
-
+  devtools: {
+    enabled: true
+  },
   routeRules: {
     '/': { prerender: true }
   },
