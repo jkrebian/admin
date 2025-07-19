@@ -2,9 +2,19 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
-    '@nuxt/ui-pro'
+    '@nuxt/image',
+    '@nuxt/ui-pro',
+    '@nuxt/content',
+    '@vueuse/nuxt',
+    'nuxt-og-image'
   ],
+   
+  devtools: {
+    enabled: true
+  },
+ 
   css: ['~/assets/css/main.css'],
+  
   uiPro: {
     license: process.env.MY_ENVIRONMENT_VARIABLE
     mdc: true
@@ -17,21 +27,29 @@ export default defineNuxtConfig({
       transitions: true
      },
   },
-  devtools: {
-    enabled: true
-  },
+
   routeRules: {
     '/': { prerender: true }
   },
 
   compatibilityDate: '2025-01-15',
 
+  nitro: {
+    prerender: {
+      routes: [
+        '/'
+      ],
+      crawlLinks: true
+    }
+  },
+
   eslint: {
     config: {
       stylistic: {
         commaDangle: 'never',
         braceStyle: '1tbs'
-      }
-    }
-  }
+       }
+     }
+   }
 })
+
