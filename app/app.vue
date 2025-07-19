@@ -26,7 +26,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <UBadge icon="i-lucide-rocket" size="md" color="primary" variant="solid">Badge</UBadge>
+  <UBadge icon="i-lucide-rocket" size="md" color="primary" variant="solid">J.Krebian</UBadge>
 </template>
 
 <template>
