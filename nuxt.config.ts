@@ -12,6 +12,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   uiPro: {
     license: process.env.MY_ENVIRONMENT_VARIABLE
+    mdc: true
   },
 
   routeRules: {
