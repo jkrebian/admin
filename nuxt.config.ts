@@ -25,7 +25,7 @@ export default defineNuxtConfig({
     fonts: true
     colorMode: true
     theme: {
-      colors: ['primary', 'secondary', 'success', 'info', 'warning', 'error']
+      colors: ['primary', 'secondary', 'success', 'info', 'warning', 'error'],
       transitions: true
   },
 
