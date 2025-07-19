@@ -17,6 +17,8 @@ export default defineNuxtConfig({
   
   uiPro: {
     license: process.env.MY_ENVIRONMENT_VARIABLE
+  },
+  uiPro: 
     mdc: true
     content: true
     prefix: 'Nuxt'
@@ -25,7 +27,6 @@ export default defineNuxtConfig({
     theme: {
       colors: ['primary', 'secondary', 'success', 'info', 'warning', 'error']
       transitions: true
-     },
   },
 
   routeRules: {
