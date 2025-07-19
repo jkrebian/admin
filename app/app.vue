@@ -26,6 +26,10 @@ useSeoMeta({
 </script>
 
 <template>
+  <UBadge icon="i-lucide-rocket" size="md" color="primary" variant="solid">Badge</UBadge>
+</template>
+
+<template>
   <UApp>
     <UHeader>
       <template #left>
