@@ -11,8 +11,8 @@ useHead({
   }
 })
 
-const title = 'Nuxt Starter Template'
-const description = 'Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.'
+const title = 'Admin JKrebian'
+const description = 'Nuxt Admin Starter'
 
 useSeoMeta({
   title,
@@ -40,7 +40,7 @@ useSeoMeta({
         <UColorModeButton />
 
         <UButton
-          to="https://github.com/nuxt-ui-pro/starter"
+          to="https://github.com/jkrebian/admin"
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"
@@ -65,7 +65,7 @@ useSeoMeta({
 
       <template #right>
         <UButton
-          to="https://github.com/nuxt-ui-pro/starter"
+          to="https://github.com/jkrebian/admin"
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"
