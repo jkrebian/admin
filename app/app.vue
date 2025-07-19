@@ -53,6 +53,10 @@ useSeoMeta({
     <UMain>
       <NuxtPage />
     </UMain>
+    <UModals />
+    <USlideovers />
+    <UNotifications />
+    <UModal v-model:open="open" />
 
     <USeparator icon="i-simple-icons-nuxtdotjs" />
 
