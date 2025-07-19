@@ -11,8 +11,8 @@ useHead({
   }
 })
 
-const title = 'Nuxt Starter Template'
-const description = 'Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.'
+const title = 'Admin JKrebian'
+const description = 'Nuxt Admin Starter'
 
 useSeoMeta({
   title,
@@ -24,6 +24,10 @@ useSeoMeta({
   twitterCard: 'summary_large_image'
 })
 </script>
+
+<template>
+  <UBadge icon="i-lucide-rocket" size="md" color="primary" variant="solid">J.Krebian</UBadge>
+</template>
 
 <template>
   <UApp>
@@ -40,7 +44,7 @@ useSeoMeta({
         <UColorModeButton />
 
         <UButton
-          to="https://github.com/nuxt-ui-pro/starter"
+          to="https://github.com/jkrebian/admin"
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"
@@ -53,6 +57,10 @@ useSeoMeta({
     <UMain>
       <NuxtPage />
     </UMain>
+    <UModals />
+    <USlideovers />
+    <UNotifications />
+    <UModal v-model:open="open" />
 
     <USeparator icon="i-simple-icons-nuxtdotjs" />
 
@@ -65,7 +73,7 @@ useSeoMeta({
 
       <template #right>
         <UButton
-          to="https://github.com/nuxt-ui-pro/starter"
+          to="https://github.com/jkrebian/admin"
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"
